@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Light cyan background for the body */
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #00695c; /* Dark teal color for the main heading */
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #004d40; /* Darker teal for subheadings */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #00796b; /* Teal line below the headings */
+    padding-bottom: 5px;
+}
+
+section {
+    background-color: #ffffff; /* White background for sections */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Slightly darker shadow effect */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold; /* Make labels stand out */
+    color: #00796b; /* Teal color for labels */
+}
+
+input {
+    display: block;
+    margin: 10px 0;
+    padding: 12px; /* Increased padding for better touch targets */
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #4db6a0; /* Light teal border */
+    border-radius: 4px; /* Rounded input corners */
+    transition: border 0.3s, box-shadow 0.3s; /* Smooth border transition */
+}
+
+input:focus {
+    border: 1px solid #00796b; /* Darker teal border on focus */
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Subtle shadow on focus */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00796b; /* Teal background for buttons */
+    color: white;
+    border: none;
+    border-radius: 4px; /* Rounded button corners */
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover */
+}
+
+button:hover {
+    background-color: #004d40; /* Darker teal on hover */
+    transform: scale(1.02); /* Slightly enlarge button on hover */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #4db6a0; /* Light teal border for table */
+    padding: 12px; /* Increased padding for table cells */
+}
+
+th {
+    background-color: #b2dfdb; /* Light teal background for table headers */
+    text-align: left;
+    color: #004d40; /* Darker teal for header text */
+}
+
+#access-logs {
+    margin-top: 20px;
+    background-color: #f1f8e9; /* Light green background for logs section */
+    border: 1px solid #c8e6c9; /* Light green border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px;
+}
+
+#access-logs div {
+    border-bottom: 1px solid #ddd; /* Separator between logs */
+    padding: 5px 0; /* Padding for log items */
+    color: #004d40; /* Darker teal for log text */
+}
+
+#access-logs div:last-child {
+    border-bottom: none; /* Remove last border */
+}
+
+#admin-dashboard {
+    margin-top: 20px;
+}
